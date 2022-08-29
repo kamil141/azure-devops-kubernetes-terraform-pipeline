@@ -5,9 +5,10 @@
 
 trigger:
 - main
-
 pool:
-  vmImage: ubuntu-latest
+ name: local
+#pool:
+#  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world!
