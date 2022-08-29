@@ -5,8 +5,9 @@
 
 trigger:
 - main
-pool:
-name: local
+
+ pool:
+   name: local
 #pool:
 #  vmImage: ubuntu-latest
 
