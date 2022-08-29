@@ -5,9 +5,9 @@
 
 trigger:
 
-    - main
+ - main
     
-    pool:
+pool:
       name: local
 #pool:
 #  vmImage: ubuntu-latest
