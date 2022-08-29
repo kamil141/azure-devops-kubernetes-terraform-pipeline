@@ -4,9 +4,11 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
-pool:
- name: local
+ trigger:
+    - main
+    
+    pool:
+      name: local
 #pool:
 #  vmImage: ubuntu-latest
 
