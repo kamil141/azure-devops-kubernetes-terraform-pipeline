@@ -7,10 +7,9 @@ trigger:
 
  - main
     
+
 pool:
-      name: default
-#pool:
-#  vmImage: ubuntu-latest
+  vmImage: ubuntu-latest
 
 steps:
 - script: echo Hello, world cahnged!
